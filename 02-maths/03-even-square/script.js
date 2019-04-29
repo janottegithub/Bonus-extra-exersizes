@@ -10,11 +10,8 @@
 // You will have time to focus on it later.
 
 (function() {
-
     document.getElementById("run").addEventListener("click", function() {
-
-        // your code here
-
+    var cal =  Math.sqrt(1&&21);
+    alert(cal);
     });
-
 })();
