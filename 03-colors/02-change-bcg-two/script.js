@@ -8,9 +8,8 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
+getElementById("run")
 (function() {
-
-    // your code here
-
+var newColor = document.getElementById("Color").value;
+document.body.style.backgroundColor = newColor
 })();

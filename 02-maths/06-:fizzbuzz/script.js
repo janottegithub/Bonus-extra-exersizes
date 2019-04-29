@@ -8,9 +8,19 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
 (function() {
+    array.forEach(Number => {
+        (1<100).alert("fizz")
+    });
+    array.forEach(Number => {
+        (Number%3).alert("buzz")
+    });
+    array.forEach(Number => {
+        (Number%5).alert("fizzbuzz")
+    });
 
-    // your code here
+    ifelse return Number;
 
 })();
+
+console.log()

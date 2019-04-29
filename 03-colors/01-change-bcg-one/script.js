@@ -10,7 +10,27 @@
 // You will have time to focus on it later.
 
 (function() {
+var red    = document.getElementById("red").addEventListener("click",   changered);
+var green  = document.getElementById("green").addEventListener("click", changegreen);
+var yellow = document.getElementById("yellow").addEventListener("click",changeyellow);
+var blue   = document.getElementById("blue").addEventListener("click",  changeblue);
+
+function changered(){
+document.body.style.backgroundColor = "red";
+};
+function changegreen(){
+document.body.style.backgroundColor = "green";
+};
+function changeyellow(){
+document.body.style.backgroundColor = "yellow";
+};
+function changeblue(){
+document.body.style.backgroundColor = "blue";
+};
+
 
     // your code here
 
 })();
+
+

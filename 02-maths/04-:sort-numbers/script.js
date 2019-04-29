@@ -14,9 +14,12 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("run").addEventListener("click", function() {
-
-        // your code here
-
+    var ar =[document.getElementById("numbers").readOnly.value];
+    alert(ar[].sort());
+    console.log(ar);
     });
 
+
+
+    /////////////////////////////////////////////??
 })();
