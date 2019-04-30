@@ -8,8 +8,13 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-getElementById("run")
-(function() {
-var newColor = document.getElementById("Color").value;
-document.body.style.backgroundColor = newColor
-})();
+var run = document.getElementById("run").addEventListener('click',btn)
+
+function btn () {
+
+var input = document.getElementById("color");
+var copy = input.value
+localStorage.setItem("colors", copy)
+document.body.style.backgroundColor = copy;
+console.log(copy)
+};
