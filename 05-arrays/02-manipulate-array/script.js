@@ -23,7 +23,10 @@
         "raisin",
         "cerise",
     ];
-
-    // your code here
-
+//fruits.splice(9);
+fruits.shift("");
+fruits.unshift("banana");
+fruits.pop()
+fruits.push("kiwi")
+console.log(fruits);
 })();
