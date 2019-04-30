@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+document.getElementById("run").addEventListener("click",search)
     var fruits = [
         "apple",
         "pear",
@@ -25,7 +25,10 @@
         "grap",
         "cherry",
     ];
+function search(){
+console.log(fruits[3]);
 
+}
     // your code here
 
 })();

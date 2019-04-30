@@ -18,7 +18,7 @@ var time = hour+":"+minutes
 console.log(time);
 
 //////////////////////////////////make some more changes!
-if (time >17+30){
+if (time >17,30{
 target.innerHTML = "goodmornign"
 };
 

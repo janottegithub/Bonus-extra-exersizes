@@ -10,7 +10,18 @@
 // You will have time to focus on it later.
 
 (function() {
+    var d = new Date();
+    var maand = d.getMonth();
+    console.log(maand);
+    //itteratie of loops van alle dagen van het jaar  en als/if het (13 vergeijken met nen array van dagen)==true ofzoiets dan innerHTML die maand
+
+
+
+
+
+
+
+
 
     // your code here
-
 })();
