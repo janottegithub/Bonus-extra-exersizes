@@ -9,10 +9,14 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+//hange the content of the tag by Hello (if it's less than 18h), or by Goog evening.
 
+(function () {
+    var d    = new Date();
+    var hour = d.getHours();
+    console.log(hour);
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-
-    // your code here
-
+    var target = document.getElementById("target");
+    if (hour<18){target.innerText = "keep on coding!"};
+    if (hour>18){target.innerHTML = "good evening!"};
 })();
