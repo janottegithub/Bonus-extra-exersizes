@@ -8,8 +8,8 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
-(function() {
+document.getElementById("run").addEventListener("click", myFunction);
+function myFunction () {
 
     var people = [
         {
@@ -40,5 +40,7 @@
     ];
 
     // your code here
-
-})();
+    people.forEach(people => {
+    console.log(people.firstname,people.lastname,people.email)
+    });
+};

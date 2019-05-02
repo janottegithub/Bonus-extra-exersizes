@@ -8,8 +8,8 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
-(function() {
+document.getElementById("run").addEventListener("click", myFunction);
+function myFunction() {
 
     var people = [
         {
@@ -88,7 +88,13 @@
             email: "gkeatche@google.fr",
         },
     ];
+    //var name = people.indexOf(firstname="Jean");
+    console.log(people[8].email);
+    //console.log(name);
+    function searchPeople(people){
+    return people.firstname === 'Jean';
+    }
+    console.log(people.find(searchPeople));
+    // alleen den index vind ik niet??????????????
 
-    // your code here
-
-})();
+};
