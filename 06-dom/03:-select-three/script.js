@@ -8,9 +8,7 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
-
-(function() {
-
-    // your code here
-
-})();
+var target = document.getElementsByClassName("target").addEventListener("load", myFunction());
+function myFunction() {
+target.innerHTML="owned";
+};
